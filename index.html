@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arjun the Drummer</title>
+    <link rel='stylesheet' href='./styles.css'></link>
+    <script src='./index.js'></script>
+</head>
+<body>
+    <div class="keys">
+        <div data-key='65' class='key'>
+            <kbd>A</kbd>
+            <span class='sound'>clap</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd> <span class="sound">hihat</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd> <span class="sound">kick</span>
+        </div>
+        <div data-key="70" class="key">
+             <kbd>F</kbd> <span class="sound">openhat</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd> <span class="sound">boom</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd> <span class="sound">ride</span>
+        </div>
+    </div>
+    
+    <audio
+      data-key="65"
+      src="http://www.randomthink.net/labs/html5drums/drumkit/Clap.mp3"
+    ></audio>
+    <audio
+      data-key="83"
+      src="http://www.randomthink.net/labs/html5drums/drumkit/Tambourine.wav"
+    ></audio>
+    <audio
+      data-key="68"
+      src="http://www.randomthink.net/labs/html5drums/drumkit/Tom%20Low.wav"
+    ></audio>
+    <audio
+      data-key="70"
+      src="http://www.randomthink.net/labs/html5drums/drumkit/Rimshot.wav"
+    ></audio>
+    <audio
+      data-key="71"
+      src="http://www.randomthink.net/labs/html5drums/drumkit/Bass%20Hit.wav"
+    ></audio>
+    <audio
+      data-key="72"
+      src="http://www.randomthink.net/labs/html5drums/drumkit/Snare%202.wav"
+    ></audio>
+</body>
+</html>
