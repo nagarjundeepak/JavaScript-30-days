@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Updating CSS with JS</title>
+    <meta charset="UTF-8" />
+    <link rel='stylesheet' href='./styles.css'></link>
+    <script src='./index.js'></script>
+  </head>
+
+  <body>
+    <h3>Update CSS variables with JS</h3>
+    <div class="controls">
+      <label for="spacing">Spacing:</label>
+      <input
+        type="range"
+        name="spacing"
+        min="10"
+        max="200"
+        value="10"
+        data-sizing="px"
+      />
+
+      <label for="blur">Blur:</label>
+      <input
+        type="range"
+        name="blur"
+        min="0"
+        max="25"
+        value="5"
+        data-sizing="px"
+      />
+
+      <label for="color">Base Color:</label>
+      <input type="color" name="base" value="#ffffff" />
+    </div>
+
+    <img
+      src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+    />
+
+  </body>
+</html>

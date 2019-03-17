@@ -1,0 +1,34 @@
+:root {
+    --spacing: 20px;
+    --blur: 1px;
+    --base: #ffffff;
+  }
+  
+  body {
+    text-align: center;
+    background: #193548;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  
+  .controls {
+    margin-bottom: 50px;
+  }
+  
+  img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    width: 40.5%;
+    height: 35%;
+  }
+  
+  h3 {
+    color: var(--base);
+  }
+  
+  input {
+    width: 100px;
+  }
+  
